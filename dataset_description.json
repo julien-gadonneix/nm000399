@@ -1,5 +1,5 @@
 {
-  "Name": "Thalamic local field potentials during reading aloud of words and nonwords (Wang et al., 2022): 11 essential tremor patients, DBS surgery (derivative: preprocessed epochs)",
+  "Name": "Wang-2022-lateralized-10.1523/jneurosci.1332-21.2022",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC0-1.0",
@@ -56,5 +56,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000399",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
