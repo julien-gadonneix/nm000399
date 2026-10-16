@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Wang-2022-lateralized-10.1523/jneurosci.1332-21.2022",
+  "title": "Thalamic local field potentials during reading aloud of words and nonwords (Wang et al., 2022): 11 essential tremor patients, DBS surgery (derivative: preprocessed epochs)",
   "description": "Derivative dataset of thalamic local field potentials recorded intraoperatively from the ventral lateral thalamus of 11 essential tremor patients during deep brain stimulation lead implantation. Patients read aloud consonant-vowel-consonant words and nonwords, with recordings from mapping-track macroelectrodes or implanted DBS leads. The release contains the authors' preprocessed, epoched, non-re-referenced trials repackaged in BIDS iEEG format with MNI contact coordinates and trial tables.",
   "methods_description": "Recordings were made during awake DBS surgery using either Neuro Omega mapping macroelectrodes (44 kHz sampling) or Medtronic 3387 DBS leads with a Ripple Grapevine processor (30 kHz). Signals were notch-filtered, resampled to 1 kHz, band-limited to 2-400 Hz, and epoched around each trial. Contacts were localized with Lead-DBS and normalized to MNI ICBM152 NLIN 2009b space.",
   "license": "CC0-1.0",
@@ -135,5 +135,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "e1a303bc77b9811e9b1290c027d55f2a50ebb539ff084c51719ae3d9edaf5120"
+  "source_hash": "17cb7736c6723a09733aaa983decfcd57170ace7f54a7c2cf2da72ab31ec240b"
 }
