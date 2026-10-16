@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Thalamic local field potentials during reading aloud of words and nonwords (Wang et al., 2022): 11 essential tremor patients, DBS surgery (derivative: preprocessed epochs)",
-  "description": "Derivative dataset of thalamic local field potentials recorded intraoperatively from the ventral lateral thalamus of 11 essential tremor patients during deep brain stimulation lead implantation. Patients read aloud consonant-vowel-consonant words and nonwords, with recordings from mapping-track macroelectrodes or implanted DBS leads. The release contains the authors' preprocessed, epoched, non-re-referenced trials repackaged in BIDS iEEG format with MNI contact coordinates and trial tables.",
-  "methods_description": "Recordings were made during awake DBS surgery using either Neuro Omega mapping macroelectrodes (44 kHz sampling) or Medtronic 3387 DBS leads with a Ripple Grapevine processor (30 kHz). Signals were notch-filtered, resampled to 1 kHz, band-limited to 2-400 Hz, and epoched around each trial. Contacts were localized with Lead-DBS and normalized to MNI ICBM152 NLIN 2009b space.",
+  "description": "Thalamic local field potentials recorded from the ventral lateral thalamus of 11 essential tremor patients during awake deep brain stimulation (DBS) lead implantation. Patients read aloud consonant-vowel-consonant words and nonwords. Recordings came from mapping-track macroelectrodes or the implanted DBS lead. This derivative release contains the authors' preprocessed, epoched signals (notch-filtered, resampled to 1 kHz, band-limited 2-400 Hz), repackaged in BIDS iEEG format with MNI contact coordinates.",
+  "methods_description": "Recordings were made intraoperatively with a Neuro Omega system (Alpha Omega; 44 kHz) from mapping-electrode macro rings in 4 patients, and with a Ripple Grapevine processor (30 kHz) from Medtronic 3387 DBS leads in 7 patients. Contacts were localized with Lead-DBS and normalized to MNI ICBM152 NLIN 2009b. Preprocessing by the authors included notch filtering, resampling to 1 kHz, 2-400 Hz band-pass filtering, and epoching around each trial.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -110,7 +110,8 @@
       "funder_name": "Hamot Health Foundation"
     },
     {
-      "funder_name": "University of Pittsburgh Brain Institute NeuroDiscovery Pilot Research Award"
+      "funder_name": "University of Pittsburgh Brain Institute",
+      "award_title": "NeuroDiscovery Pilot Research Award"
     },
     {
       "funder_name": "University of Pittsburgh-Tsinghua University Scholars Program"
